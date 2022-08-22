@@ -1,0 +1,127 @@
+/*tables*/
+@media screen and (min-width: 768px) {
+    /*section chamada*/
+
+    .chamada__texto {
+            max-width: 600px;
+        }
+
+    .cartao {
+        max-width: 400px;
+    }
+
+    /*section institucional*/
+
+    .institucional__contato-email{
+        display: inline-block;
+    }
+
+    .institucional__video {
+        width: 100%;
+    }
+} 
+
+/*desktops*/
+@media screen and (min-width: 1024px) {
+    /*container*/
+    .container {
+        padding-left: calc((100% - 940px) / 2);
+        padding-right: calc((100% - 940px) / 2);
+    }
+
+    /*header*/
+    .cabecalho{
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+
+    /*section chamada*/
+
+    .chamada{
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-top: 8.25rem;
+    }
+
+    .chamada__titulo{
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    /*section diferencias*/
+
+    .diferencias {
+        background-color: var(--cinza-claro);
+    }
+
+    .diferencias__lista {
+        justify-content: space-around;
+    }
+
+    /*section sobre*/
+
+    .sobre {
+        display: flex;
+    }
+
+    .sobre__conteudo {
+        margin-right: 3rem;
+    }
+
+    .sobre__titulo {
+        text-align: left;
+    }
+
+    .sobre__texto--divisao {
+        border-bottom: 1px solid var(--cinza-medio);
+        padding-bottom: 1.5rem;
+    }
+
+    .sobre__imagem {
+        display: block;
+    }
+
+    /*section planos*/
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    
+    .cartao{
+        max-width: 300px;
+    }
+
+    /*section institucional*/
+    .institucional__conteudo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: flex-end;
+        width: 375px;
+    }
+
+    .institucional__contato-email {
+        display: block;
+    }
+
+    /*footer*/
+    .rodape {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .rodape__navegacao {
+        text-align: left;
+        min-width: 600px;
+    }
+
+    
+}
